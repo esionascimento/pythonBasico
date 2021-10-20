@@ -1,12 +1,12 @@
-verdade = True
-falso = False
+print('Opcoes:\n1 = Escreve Guilherme\n2 = Escreve Joao\n3 = Escreve Maria\n')
 
-a = 50
-b = 20
+opcao = input ('Escolha uma opcao: ')
 
-print(type(verdade))
-
-if verdade == True:
-  print('Verdade é verdadeiro')
-if ((a>b) and ('joao' == 'maria') or True):
-  print(a, 'é maior do que', b)
+if opcao == '1':
+  print('Guilherme')
+elif opcao == '2':
+  print('Joao')
+elif opcao == '3':
+  print('Maria')
+else:
+  print('Opcao invalida')
