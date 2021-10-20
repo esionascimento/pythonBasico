@@ -1,12 +1,11 @@
-print('Opcoes:\n1 = Escreve Guilherme\n2 = Escreve Joao\n3 = Escreve Maria\n')
+idade = 50
 
-opcao = input ('Escolha uma opcao: ')
-
-if opcao == '1':
-  print('Guilherme')
-elif opcao == '2':
-  print('Joao')
-elif opcao == '3':
-  print('Maria')
+if not idade == 50:
+  print('Você não tem 50 anos')
 else:
-  print('Opcao invalida')
+  print('Você tem 50 anos')
+
+if not True:
+  print('Entrou no if')
+else:
+  print('Entrou no else')
