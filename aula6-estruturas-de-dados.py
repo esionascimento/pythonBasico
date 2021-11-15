@@ -54,3 +54,7 @@ lista = []
 tupla = ()
 dicionario = {} # ou dict()
 conjunto = set()
+
+loucura = [(1,2), (3,4), (5,6), ({'Joao', 'Maria'}, {'Gabriel'})]
+
+print(loucura)
