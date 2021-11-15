@@ -49,3 +49,8 @@ if 'Gui' in meu_conjunto: #busca instantanea -hash
 print(meu_conjunto)
 #print(meu_conjunto[0]) #nao funciona, conjunto nao há indice
 
+#inicializando
+lista = []
+tupla = ()
+dicionario = {} # ou dict()
+conjunto = set()
