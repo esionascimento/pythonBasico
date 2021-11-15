@@ -16,3 +16,5 @@ elif argumentos[1] == "sub":
   resp = sub(float(argumentos[2]), float(argumentos[3]))
 
 print(resp)
+
+# tratar caso 'python3 aula8-passagem-de-argumentos.py sub 300' for passado menos argumentos < 3
