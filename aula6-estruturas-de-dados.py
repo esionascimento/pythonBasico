@@ -16,7 +16,25 @@ print(minha_tupla)
 
 if 'Fabricio' in minha_tupla:
   print('Fabricio está na colecao')
-  
+
 # dicionario
-if 'Guilherme' in meu_dicionario:
-  print('Gui está no dicionario')
+print(meu_dicionario)
+print(meu_dicionario['nome']) #busca pela chave
+
+if 'Guilherme' in meu_dicionario: #não busca desta forma
+  print('Guilherme está no dicionario')
+
+if 'Guilherme' in meu_dicionario.values(): #busca desta forma
+  print('Guilherme esta no dicionario')
+
+for valores in meu_dicionario.values(): #nao esta ordenado
+  print(valores)
+
+for valores in meu_dicionario.keys(): #somente as chaves
+  print(valores)
+
+meu_dicionario['idade'] = '40' #mudando valores no dicionario
+print(meu_dicionario)
+
+meu_dicionario['endereco'] = 'Av. Hor' #adicionando nova chave no dicionario
+print(meu_dicionario)
