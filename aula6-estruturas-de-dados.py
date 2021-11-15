@@ -38,3 +38,14 @@ print(meu_dicionario)
 
 meu_dicionario['endereco'] = 'Av. Hor' #adicionando nova chave no dicionario
 print(meu_dicionario)
+
+#conjunto
+meu_conjunto.add('Esio')
+meu_conjunto.add('Esio') #nao adiciona, pois é um dado repetido
+
+if 'Gui' in meu_conjunto: #busca instantanea -hash
+  print('Foi encontrado dentro do conjunto')
+
+print(meu_conjunto)
+#print(meu_conjunto[0]) #nao funciona, conjunto nao há indice
+
