@@ -1,4 +1,5 @@
 from veiculo import Veiculo
+from carro import Carro
 
 veiculo1 = Veiculo('preto', 6, 'ford', 30)
 
@@ -11,7 +12,7 @@ print("Rodas:", veiculo1.rodas)
 print("Marca:", veiculo1.marca)
 
 print("")
-veiculo2 = Veiculo('branco', 4, 'bmw', 50)
+veiculo2 = Carro('branco', 4, 'bmw', 50)
 
 print("Carro 2")
 print("Cor:", veiculo2.cor)
