@@ -2,10 +2,11 @@ import requests
 import json # trabalha com json, tranforma json em objetos
 
 site = 'https://www.omdbapi.com/?apikey=baf71168&t='
+busca_filme = '&type=movie'
 
 def requisicao(titulo):
   try:
-    req = requests.get(site + titulo)
+    req = requests.get(site + titulo + busca_filme)
     dicionario = json.loads(req.text) # converte json em dicionario
     return dicionario
   except:
