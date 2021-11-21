@@ -7,7 +7,7 @@ sudo pip install --upgrade pip # atualizar para a última versão do gerenciador
 import requests
 
 try:
-  requisicao = requests.get('https://g1.com.br')
+  requisicao = requests.get('http://g1.com.br')
   print(requisicao)
   print(requisicao.status_code)
   print(requisicao.text)
