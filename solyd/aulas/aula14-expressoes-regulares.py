@@ -1,4 +1,5 @@
 import re
+import requests
 
 string_de_teste = 'O gato é bonito'
 
@@ -15,3 +16,12 @@ else :
 
 print(r"Oi pessoal\nsegunda linha") #o r no começo tira o poder dos caracteres especiais, não quebrando linha e sim imprimindo o \n
 
+#############################################
+requisicao = requests.get('https://github.com/esionascimento')
+
+resultado = re.findall(r'[\w\.-]+@[\w-]+\.\w\w\w', requisicao.text)
+
+if resultado:
+  print(resultado)
+else:
+  print("Erro: email não contém no site")
